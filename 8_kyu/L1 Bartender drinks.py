@@ -9,5 +9,6 @@ def get_drink_by_profession(param):
         "pundit": "Beer",
         "pug": "Beer"
     }
+
     profession = param.lower()
     return drinks.get(profession, "Beer")
